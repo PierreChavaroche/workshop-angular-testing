@@ -1,0 +1,38 @@
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: 0 auto;
+
+    .message {
+        border: 2px solid #FFD811;
+        border-radius: 0.25rem;
+        margin-bottom: 2rem;
+
+        .message-header {
+            background-color: #FFD811;
+
+            p {
+                padding: 1rem;
+                margin: 0;
+            }
+        }
+
+        .message-body {
+            padding: 1rem;
+        }
+    }
+
+    .button {
+        width: 100%;
+        font-size: 1.2rem;
+        background-color: #5d7ac5;
+        color: white;
+        border: none;
+        border-radius: 0.25rem;
+        padding: 1rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

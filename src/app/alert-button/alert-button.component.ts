@@ -11,7 +11,7 @@ export class AlertButtonComponent implements OnInit {
   content$: Observable<any>; 
   content = 'you have been warned';
   hideContent = true;
-  severity = 423;
+  severity = 423; // Schweregrad
 
   constructor(private msgService: MessageService) { }
 
